@@ -1,0 +1,7 @@
+version: '2.4'
+services:
+  ubuntuserverstage:
+      container_name: hello-world
+      build:
+        context: .
+        dockerfile: Dockerfile
